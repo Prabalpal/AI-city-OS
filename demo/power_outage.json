@@ -1,0 +1,14 @@
+{
+  "type": "power_outage",
+  "title": "Power station outage at North Grid",
+  "description": "North Grid Station outage causing widespread power loss across the medical district and municipal offices.",
+  "source": "system",
+  "latitude": 23.852,
+  "longitude": 90.398,
+  "severity": 5,
+  "confidence": 0.96,
+  "expected_priority": "CRITICAL",
+  "expected_entities": ["POWER_P1", "HOSPITAL_H3", "OFFICE_G5", "HOSPITAL_H1"],
+  "expected_impact": "critical",
+  "notes": "Hospital dependency increases priority because healthcare services rely on power continuity."
+}

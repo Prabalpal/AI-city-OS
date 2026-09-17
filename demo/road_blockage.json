@@ -1,0 +1,14 @@
+{
+  "type": "road_blockage",
+  "title": "Road blockage on Hospital Link",
+  "description": "A blocked road segment is affecting school transportation, hospital access, and bus service near the medical district.",
+  "source": "camera",
+  "latitude": 23.828,
+  "longitude": 90.401,
+  "severity": 3,
+  "confidence": 0.86,
+  "expected_priority": "HIGH",
+  "expected_entities": ["ROAD_R3", "HOSPITAL_H1", "SCHOOL_S3", "BUS_B3"],
+  "expected_impact": "high",
+  "notes": "The blockage creates alternate-route recommendations and transit disruption."
+}

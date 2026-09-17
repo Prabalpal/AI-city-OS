@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+.mypy_cache/
+.pytype/
+.ruff_cache/
+
+# Environment / secrets
+.env
+.env.*
+*.local
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+
+# Build / coverage
+coverage/
+htmlcov/
+*.cover
+.pytest_cache/
+
+# OS files
+*.log
+
+# Local project data
+backend/data/incidents_store.json
+backend/data/*.sqlite3
+backend/data/*.db
+
+# Optional: keep local demo artifacts out of Git
+# demo/

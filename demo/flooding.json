@@ -1,0 +1,14 @@
+{
+  "type": "waterlogging",
+  "title": "Flooding near City General Hospital",
+  "description": "Severe waterlogging on Airport Road near City General Hospital, affecting emergency access and nearby school routes.",
+  "source": "sensor",
+  "latitude": 23.8257,
+  "longitude": 90.4135,
+  "severity": 4,
+  "confidence": 0.91,
+  "expected_priority": "CRITICAL",
+  "expected_entities": ["ROAD_R1", "HOSPITAL_H1", "SCHOOL_S1", "BUS_B1", "DRAIN_D2"],
+  "expected_impact": "high",
+  "notes": "Flooding on a major road creates hospital access disruption and a school transit impact."
+}
